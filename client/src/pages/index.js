@@ -3,9 +3,6 @@ import { Router } from '@reach/router';
 /** importing our pages */
 import Tracks from './tracks';
 
-const faker = require('faker')
-console.log(faker)
-
 export default function Pages() {
   return (
     <Router primary={false} component={Fragment}>
